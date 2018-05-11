@@ -30,10 +30,14 @@ public class Solution {
 
                     l++;
                 }
-                else if (nums[i] + nums[l] + nums[r] < 0)
+                else if (nums[i] + nums[l] + nums[r] < 0) 
+				{
                     l++;
-                else 
-                    r--;
+			    } 
+				else 
+				{ 
+                    r--;	
+				}
             }
         }
         
