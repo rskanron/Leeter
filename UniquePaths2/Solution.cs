@@ -27,7 +27,7 @@ public class Solution {
                     continue;
                 }
 								
-								var numPathsToHere = 0;
+		var numPathsToHere = 0;
 								
                 if (i == 0) {
                     numPathsToHere = pathCountGrid[i, j-1];
