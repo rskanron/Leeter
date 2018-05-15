@@ -31,13 +31,13 @@ public class Solution {
                     l++;
                 }
                 else if (nums[i] + nums[l] + nums[r] < 0) 
-				{
+		{
                     l++;
-			    } 
-				else 
-				{ 
+		} 
+		else 
+		{ 
                     r--;	
-				}
+		}
             }
         }
         
